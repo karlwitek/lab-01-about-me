@@ -1,0 +1,17 @@
+#golfimg {
+    height: 250px;
+    width: 250px;
+    padding-right: 20px;
+
+}
+
+#button {
+    background-color: aqua;
+}
+
+#first-image {
+    display: flex;
+    
+
+}
+
