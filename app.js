@@ -33,7 +33,7 @@ function startQuiz() {
     }
 
     if (correctAnswers >= 1) {
-        userOutput += ' and a fellow Oregonian!';
+        userOutput += ' and a you are a fellow Oregonian!';
     } else {
         userOutput += ' and you might want to visit the great Northwest!';
 
