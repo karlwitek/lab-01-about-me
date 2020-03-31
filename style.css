@@ -1,17 +1,38 @@
 #golfimg {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     padding-right: 20px;
 
 }
 
+#hikingimg {
+    height: 200px;
+    width: 200px;
+    padding-right: 20px;
+}
+
 #button {
+    margin-top:  40px;
     background-color: aqua;
+    height: 40px;
+    width: 100px;
+}
+
+.medium-text {
+    font-size: 25px;
 }
 
 #first-image {
     display: flex;
-    
+    margin-bottom: 15px;
+}
 
+#second-image {
+    display: flex;
+    
+}
+
+#quiz-output {
+    font-size: 18px;
 }
 
