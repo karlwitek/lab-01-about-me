@@ -1,4 +1,4 @@
-//import isYes from './is-yes.js';
+import isYes from './is-Yes.js';
 
 // Reference needed DOM elements
 
@@ -27,6 +27,17 @@ function startQuiz() {
     const isResident = prompt('Do you live in Oregon? (Y/N)');
 
     let userOutput = 'Your name is ' + name;
+
+    if (isYes(isResident) === true) {
+        correctAnswers += 1;
+    }
+
+    if (correctAnswers >= 1) {
+        userOutput += ' and a fellow Oregonian!';
+    } else {
+        userOutput += ' and you might want to visit the great Northwest!';
+
+    }
 
     output.textContent = userOutput;
 
